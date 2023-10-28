@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIT Event Registration Form</title>
+    <link rel = "stylesheet" href = "style.css" type="text/css">
+    <script src = "script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="registration-form" onsubmit="return validateForm()">
+            <div class="form-group">
+                <h2>VIT Event Registration</h2>
+                <p>VIT Event Description</p>
+            </div>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="form-group">
+                <label for="zipcode">Zip Code:</label>
+                <input type="text" id="zipcode" name="zipcode">
+            </div>
+            <div class="form-group">
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile">
+            </div>
+            <button class="btn" type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
+
